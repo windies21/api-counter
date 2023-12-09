@@ -1,11 +1,11 @@
 """Simple Url Counter Main"""
-import json
-import re
 from collections import defaultdict, Counter
-from datetime import datetime
-from pathlib import Path
 
 import click
+import json
+import re
+from datetime import datetime
+from pathlib import Path
 from rich import print_json
 from yirgachefe import config, logger
 
@@ -45,6 +45,9 @@ def make_result_file(targets: list, counter: list):
 @click.option('-r', '--recursive', is_flag=True,
               show_default=True, default=False, help="Includes Sub folders recursively.")
 def main(files, folder, makefile, recursive):
+    config.ignores = ''
+    config._load_config_env()
+
     counter = Counter()
     file_list = None
     targets = []

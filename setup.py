@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from setuptools import setup, find_packages
 
 req_tests = ["pytest"]
@@ -12,10 +14,18 @@ with open('requirements.txt', 'r') as f:
         ] if s != ''
     ]
 
+# read the contents of README
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 setup_options = {
-    "name": "Url Counter",
-    "version": "0.1",
-    "description": "Simple Url Counter from Json files or folder.",
+    "name": "Api-Counter",
+    "version": "2.2.3",
+    "url": "https://github.com/windies21/api-counter",
+    "author": "winDy",
+    "author_email": "winDy@windystudio.com",
+    "license": "MIT",
+    "description": "Simple API Counter from log files or folder.",
     "packages": find_packages(),
     "python_requires": ">=3.11.0",
     "install_requires": install_requires,
@@ -30,6 +40,8 @@ setup_options = {
             "counter=url_counter.main:main",
         ],
     },
+    "long_description": long_description,
+    "long_description_content_type": 'text/markdown',
 }
 
 setup(**setup_options)

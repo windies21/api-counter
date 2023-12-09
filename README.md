@@ -10,17 +10,21 @@ It is recommended to set with pyenv.
 
 ~~~shell
 $ pyenv install 3.11.2
-$ pyenv virtualenv 3.11.2 url_counter
-$ pyenv local url_counter
+$ pyenv virtualenv 3.11.2 api_counter
+$ pyenv local api_counter
 ~~~
 
 ### Install
 
 ~~~shell
-$ pip install -e .
+$ pip install api-counter
 ~~~
 
 ### Run
+
+~~~shell
+$ counter [FILE]  # Quick start with a single file.
+~~~
 
 ~~~shell
 $ counter --help  # Show me the help.
