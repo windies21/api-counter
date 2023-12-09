@@ -7,12 +7,12 @@ from pathlib import Path
 
 import click
 from rich import print_json
-from yirgachefe import logger
+from yirgachefe import config, logger
 
 
 def url_counter(file) -> dict:
+    ignores = config.ignores.split(',')
     url_count = defaultdict(int)
-
     regex_dict = {"json": r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s("
                           r")<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,"
                           r"<>?«»“”‘’]))",
@@ -20,6 +20,9 @@ def url_counter(file) -> dict:
     regex = re.compile(regex_dict[file.name.split('.')[-1]])
 
     for line in file:
+        if any(ignore in line for ignore in ignores):
+            continue
+
         match = regex.search(line)
         if match:
             url = match.group(0)
