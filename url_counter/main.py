@@ -20,7 +20,7 @@ def url_counter(file) -> dict:
     regex = re.compile(regex_dict[file.name.split('.')[-1]])
 
     for line in file:
-        if any(ignore in line for ignore in ignores):
+        if any(ignore in line for ignore in ignores if ignore != ''):
             continue
 
         match = regex.search(line)

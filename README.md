@@ -1,11 +1,10 @@
-# Simple Url Counter
+# Simple API Call Counter
 
-## 환경
+## Environment
 1. Python 3.11.x
 
-
-pyenv 로 설정하는 것을 권장합니다.
-파이썬 실행환경을 다른 방법으로 구성하실 수 있다면 아래의 pyenv 가이드는 생략하셔도 됩니다.
+It is recommended to set with pyenv.
+<br>If you can configure the Python execution environment in another way, you can skip the pyenv guide below.
 
 ### pyenv
 
@@ -15,69 +14,91 @@ $ pyenv virtualenv 3.11.2 url_counter
 $ pyenv local url_counter
 ~~~
 
-### 설치
+### Install
 
 ~~~shell
 $ pip install -e .
 ~~~
 
-### 실행
+### Run
 
 ~~~shell
-$ counter --help  # 도움말 출력
+$ counter --help  # Show me the help.
 
-$ counter -d . -r -f  # 현재 폴더 하위의 모든 json 파일에서 url 을 카운팅하고 결과 파일 생성 (단 result_ 로 시작하는 json 파일은 포함되지 않음!)
+$ counter -d . -r -f  # Counts urls from all (json and log) files under the current folder and 
+                      # creates a result file (however, json files starting with result_ are not included!)
 ~~~
 
-#### 옵션 사용예 (도움말 출력 참고할 것!)
-
+#### Example of Using Options (Refer to the Help)
 ~~~shell
-$ counter 000.json  # 000.json 에서 카운트 한 결과를 화면에 출력
+$ counter 000.json  # Display the count result from 000.json on the screen
 
-$ counter 000.json -f  # 000.json 에서 카운트 한 결과를 화면에 출력 및 result_{날짜_시분초}.json 파일로 생성
+$ counter 000.json -f  # Display the count result from 000.json on the screen and create a result_{date_time}.json file
 
-$ counter 000.json 111.json 222.json ...  # 복수의 json 파일을 카운트 하여 화면에 출력
+$ counter 000.json 111.json 222.json ...  # Count multiple json files and display the results on the screen
 
-$ counter 000.json 111.json 222.json ...  -f  # 복수의 json 파일을 카운트 하여 화면에 출력 및 결과 파일 생성
+$ counter 000.json 111.json 222.json ...  -f  # Count multiple json files, display the results on the screen, and create a result file
 
-$ counter -d ./0000  # 0000 폴더의 모든 json 파일을 카운트 하여 결과 출력 (하위 폴더는 처리 하지 않음)
+$ counter -d ./0000  # Count all json files in the 0000 folder and display the result (subfolders are not processed)
 
-$ counter -d ./0000  -f  # 0000 폴더의 모든 json 파일을 카운트 하여 결과 출력 및 파일 생성 (하위 폴더는 포함 하지 않음)
+$ counter -d ./0000  -f  # Count all json files in the 0000 folder, display the result, and create files (subfolders are not included)
 
-$ counter -d -r -f ./0000  # 0000 폴더의 모든 json 파일을 카운트 하여 결과 출력 및 파일 생성 (하위 폴더 포함)
+$ counter -d -r -f ./0000  # Count all json files in the 0000 folder, display the result, and create files (including subfolders)
 ~~~
 
-### 테스트 (unittest with pytest)
+### Test (unittest with pytest)
 
 ~~~shell
 $ pytest -svx -rsa tests
 ~~~
 
-## 결과 파일 양식
+## Result File Format
 
-양식: result_{날짜_시분초}.json
-~~~json
+Format: result_{date_time(%Y%m%d_%H%M%S)}.json
+~~~jsonc
 {
-  "targets": [ 카운팅한 파일 목록 ],
-  "result": [
-    {"카운팅 된 URL": 등장횟수 1위},
-    {"카운팅 된 URL": 등장횟수 내림차순으로 정렬},
-  ]
+    "targets": [ 
+        list of counted files 
+    ],
+    "result": [
+        "Counted URL: 1st place in frequency",
+        "Counted URL: Sorted in descending order of frequency"
+    ]
 }
 ~~~
-Sample: result_20230310_100501.json
-~~~json
+Sample: result_20231209_201928.json
+~~~jsonc
 {
-  "targets": [
-    "000.json",
-    "111.json",
-    "222.json"
-  ],
-  "result": [
-    {"https://aaa.com": 100},
-    {"https://bbb.com": 50},
-    {"https://ccc.com": 10},
-    {"https://ddd.com": 1}
-  ]
+    "targets": [
+        "tests/samples/nginx.log"
+    ],
+    "result": [
+        "GET /api/docs: 18",
+        "GET /api: 17",
+        "POST /api/v1/social/signup: 4",
+        "DELETE /api/v1/users/95: 2",
+        "PUT /api/v1/users/me: 1",
+        "POST /api/v1/social/profile/format: 1",
+        "POST /api/v1/social/profile: 1"
+    ]
 }
+~~~
+
+## One More Thing (About the ignore option)
+If you want to specify lines to exclude from the counter. (e.g. request from a specific IP address, etc.)
+<br>You can set export ignores=1.1.1.1 or export ignores=1.1.1.1,2.2.2.2 (no space allowed).
+
+~~~shell
+$ export ignores=1.1.1.1
+
+or for multiple ignores.
+$ export ignores=1.1.1.1,2.2.2.2
+~~~
+
+And surprisingly, this option can work with any string. (e.g. '/api/token')
+~~~shell
+$ export ignores='/api/token'
+
+or for multiple ignores.
+$ export ignores='/api/token',2.2.2.2
 ~~~
