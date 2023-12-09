@@ -1,20 +1,28 @@
 """Simple Url Counter Main"""
-from collections import defaultdict, Counter
-
-import click
 import json
-import pprint
 import re
+from collections import defaultdict, Counter
 from datetime import datetime
 from pathlib import Path
+
+import click
+from rich import print_json
 from yirgachefe import logger
 
 
 def url_counter(file) -> dict:
     url_count = defaultdict(int)
-    for i in file:
-        regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
-        for url in ["".join(x) for x in re.findall(regex, i)]:
+
+    regex_dict = {"json": r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s("
+                          r")<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,"
+                          r"<>?«»“”‘’]))",
+                  "log": r"\b(?:GET|POST|PUT|DELETE)\s+([^\s]+)\b"}
+    regex = re.compile(regex_dict[file.name.split('.')[-1]])
+
+    for line in file:
+        match = regex.search(line)
+        if match:
+            url = match.group(0)
             url_count[url] += 1
 
     return url_count
@@ -25,10 +33,6 @@ def make_result_file(targets: list, counter: list):
     result = {'targets': targets, 'result': counter}
     with open(result_file_name, "w") as file:
         json.dump(result, file, indent=4)
-
-
-def pretty(json_obj) -> str:
-    return f"\n{pprint.PrettyPrinter(indent=4, sort_dicts=False).pformat(json_obj)}\n"
 
 
 @click.command()
@@ -54,7 +58,9 @@ def main(files, folder, makefile, recursive):
             logger.info(f'Run in path({folder}).')
             files_ = directory_path.glob('*')
 
-        file_list = (open(file, "r") for file in files_ if file.suffix == ".json" and file.name[:7] != "result_")
+        file_list = (
+            open(file, "r") for file in files_ if file.suffix in [".json", ".log"] and file.name[:7] != "result_"
+        )
 
     if file_list:
         for file in file_list:
@@ -62,8 +68,8 @@ def main(files, folder, makefile, recursive):
             count = url_counter(file)
             counter.update(Counter(count))
 
-    result = [{item[0]:item[1]} for item in counter.most_common()]
+    result = [f"{item[0]}: {item[1]}" for item in counter.most_common()]
     if makefile:
         make_result_file(targets, result)
 
-    logger.info(f'URL Count {pretty(result)}')
+    print_json(json.dumps(result))

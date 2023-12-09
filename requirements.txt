@@ -1,2 +1,4 @@
 Yirgachefe
 click
+rich
+pytest
