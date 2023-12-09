@@ -1,0 +1,40 @@
+{
+ "name": "[민티드랩] Minted Lab",
+ "type": "public_channel",
+ "id": 1410383367,
+ "messages": [
+  {
+   "id": 29454,
+   "type": "message",
+   "date": "2023-03-01T15:10:22",
+   "date_unixtime": "1677651022",
+   "edited": "2023-03-01T19:45:28",
+   "edited_unixtime": "1677667528",
+   "from": "[민티드랩] Minted Lab",
+   "from_id": "channel1410383367",
+   "forwarded_from": "차분남(차트분석하는남자)",
+   "text": [
+    "'300% 급등' 스택스…\"美 SEC 최초 승인 비트코인 L2로 부각\"\n\n스택스(STX), 2월 300% 급등…美 SEC 승인으로 주목\n\"'비트코인 NFT' 오디널스 성장시 낙수효과 기대\"\n\"2024년 상반기 비트코인 반감기 최대 수혜\" 전망도\n\n",
+    {
+     "type": "link",
+     "text": "https://n.news.naver.com/article/015/0004815976?sid=105"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "'300% 급등' 스택스…\"美 SEC 최초 승인 비트코인 L2로 부각\"\n\n스택스(STX), 2월 300% 급등…美 SEC 승인으로 주목\n\"'비트코인 NFT' 오디널스 성장시 낙수효과 기대\"\n\"2024년 상반기 비트코인 반감기 최대 수혜\" 전망도\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://n.news.naver.com/article/015/0004815976?sid=105"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  }
+ ]
+}

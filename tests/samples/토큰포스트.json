@@ -1,0 +1,849 @@
+{
+ "name": "토큰포스트(TokenPost) 공식 채널",
+ "type": "public_channel",
+ "id": 1584728369,
+ "messages": [
+  {
+   "id": 7986,
+   "type": "message",
+   "date": "2023-03-01T09:00:39",
+   "date_unixtime": "1677628839",
+   "edited": "2023-03-01T09:09:26",
+   "edited_unixtime": "1677629366",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 1080,
+   "height": 1080,
+   "text": [
+    "🐰",
+    {
+     "type": "bold",
+     "text": "토큰포스트 토끼 NFT 페스티벌\n      2차 미션 공지"
+    },
+    "🐰\n\n📍",
+    {
+     "type": "bold",
+     "text": "참여 방법\n"
+    },
+    "     1) 토큰포스트 홈페이지 ",
+    {
+     "type": "text_link",
+     "text": "회원가입",
+     "href": "https://www.tokenpost.kr/member/join"
+    },
+    " \n     2) 토큰포스트 홈페이지 커뮤니티    \n          : ",
+    {
+     "type": "text_link",
+     "text": "이벤트 공지에",
+     "href": "https://www.tokenpost.kr/forum/notice/206798"
+    },
+    " \"퀴즈정답\" 기입\n     3) ",
+    {
+     "type": "text_link",
+     "text": "구글폼",
+     "href": "https://docs.google.com/forms/d/10T2LRB7N0lY8RI30IpvAq5-w0icxwGuPdrWCFMbOBjA/edit?pli=1"
+    },
+    " 작성\n\n📆 ",
+    {
+     "type": "bold",
+     "text": "참여 기간"
+    },
+    " \n       2023.03.01(수) ~ 03.19(일)\n\n🙋 ",
+    {
+     "type": "bold",
+     "text": "이벤트 대상"
+    },
+    " \n       토큰포스트 모든 회원\n\n🎁 ",
+    {
+     "type": "bold",
+     "text": "이벤트 경품\n"
+    },
+    "      1) 토끼NFT\n      2) 1,000원 상당 NEWS 토큰"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🐰"
+    },
+    {
+     "type": "bold",
+     "text": "토큰포스트 토끼 NFT 페스티벌\n      2차 미션 공지"
+    },
+    {
+     "type": "plain",
+     "text": "🐰\n\n📍"
+    },
+    {
+     "type": "bold",
+     "text": "참여 방법\n"
+    },
+    {
+     "type": "plain",
+     "text": "     1) 토큰포스트 홈페이지 "
+    },
+    {
+     "type": "text_link",
+     "text": "회원가입",
+     "href": "https://www.tokenpost.kr/member/join"
+    },
+    {
+     "type": "plain",
+     "text": " \n     2) 토큰포스트 홈페이지 커뮤니티    \n          : "
+    },
+    {
+     "type": "text_link",
+     "text": "이벤트 공지에",
+     "href": "https://www.tokenpost.kr/forum/notice/206798"
+    },
+    {
+     "type": "plain",
+     "text": " \"퀴즈정답\" 기입\n     3) "
+    },
+    {
+     "type": "text_link",
+     "text": "구글폼",
+     "href": "https://docs.google.com/forms/d/10T2LRB7N0lY8RI30IpvAq5-w0icxwGuPdrWCFMbOBjA/edit?pli=1"
+    },
+    {
+     "type": "plain",
+     "text": " 작성\n\n📆 "
+    },
+    {
+     "type": "bold",
+     "text": "참여 기간"
+    },
+    {
+     "type": "plain",
+     "text": " \n       2023.03.01(수) ~ 03.19(일)\n\n🙋 "
+    },
+    {
+     "type": "bold",
+     "text": "이벤트 대상"
+    },
+    {
+     "type": "plain",
+     "text": " \n       토큰포스트 모든 회원\n\n🎁 "
+    },
+    {
+     "type": "bold",
+     "text": "이벤트 경품\n"
+    },
+    {
+     "type": "plain",
+     "text": "      1) 토끼NFT\n      2) 1,000원 상당 NEWS 토큰"
+    }
+   ]
+  },
+  {
+   "id": 7987,
+   "type": "service",
+   "date": "2023-03-01T09:00:58",
+   "date_unixtime": "1677628858",
+   "actor": "토큰포스트(TokenPost) 공식 채널",
+   "actor_id": "channel1584728369",
+   "action": "pin_message",
+   "message_id": 7986,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 7988,
+   "type": "message",
+   "date": "2023-03-01T11:32:06",
+   "date_unixtime": "1677637926",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "[토큰포스트 3.1절 연휴 브리핑] 美 투자은행 번스타인 \"이더리움이 디파이 시장 주도할 것\" 外\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124351"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "[토큰포스트 3.1절 연휴 브리핑] 美 투자은행 번스타인 \"이더리움이 디파이 시장 주도할 것\" 外\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124351"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7989,
+   "type": "message",
+   "date": "2023-03-01T11:32:20",
+   "date_unixtime": "1677637940",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "1600만 이더리움 풀리는 '상하이X카펠라' 하드포크...기술 혁신 통해 시장 신뢰 잡는다\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124300"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "1600만 이더리움 풀리는 '상하이X카펠라' 하드포크...기술 혁신 통해 시장 신뢰 잡는다\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124300"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7990,
+   "type": "message",
+   "date": "2023-03-02T08:50:54",
+   "date_unixtime": "1677714654",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "이더리움 계정 추상화 업데이트, 美 월렛콘 행사서 발표한다\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124454"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "이더리움 계정 추상화 업데이트, 美 월렛콘 행사서 발표한다\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124454"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7991,
+   "type": "message",
+   "date": "2023-03-02T08:51:35",
+   "date_unixtime": "1677714695",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "지난달 비트코인 상승폭, 채굴사 주식 실적 앞질렀다\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124455"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "지난달 비트코인 상승폭, 채굴사 주식 실적 앞질렀다\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124455"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7992,
+   "type": "message",
+   "date": "2023-03-02T08:51:51",
+   "date_unixtime": "1677714711",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "美 투자은행 번스타인 \"이더리움 이달 말까지 가격 조정 제한적\"\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124459"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "美 투자은행 번스타인 \"이더리움 이달 말까지 가격 조정 제한적\"\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124459"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7993,
+   "type": "message",
+   "date": "2023-03-02T08:52:02",
+   "date_unixtime": "1677714722",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "美 '스테이블코인 스탠다드' 협의체 출범...\"국제적 산업 표준 마련과 품질 인증 작업 중점\"\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124463"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "美 '스테이블코인 스탠다드' 협의체 출범...\"국제적 산업 표준 마련과 품질 인증 작업 중점\"\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124463"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7994,
+   "type": "message",
+   "date": "2023-03-02T08:52:14",
+   "date_unixtime": "1677714734",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "폴리곤, 영지식증명 활용 '신원인증' 서비스 선보인다\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124461"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "폴리곤, 영지식증명 활용 '신원인증' 서비스 선보인다\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124461"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7995,
+   "type": "message",
+   "date": "2023-03-02T08:52:26",
+   "date_unixtime": "1677714746",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "실버게이트, 시간 외 거래 10% 하락...각종 조사 직면\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124464"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "실버게이트, 시간 외 거래 10% 하락...각종 조사 직면\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124464"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7996,
+   "type": "message",
+   "date": "2023-03-02T08:52:36",
+   "date_unixtime": "1677714756",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "프랑스, 내년부터 암호화폐 기업 규제기관 등록 의무화\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124467"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "프랑스, 내년부터 암호화폐 기업 규제기관 등록 의무화\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124467"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7997,
+   "type": "message",
+   "date": "2023-03-02T08:52:46",
+   "date_unixtime": "1677714766",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "[토큰포스트 브리핑] 이더리움 계정 추상화 업데이트, 美 월렛콘 행사서 발표한다 外\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124468"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "[토큰포스트 브리핑] 이더리움 계정 추상화 업데이트, 美 월렛콘 행사서 발표한다 外\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124468"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7998,
+   "type": "message",
+   "date": "2023-03-02T08:52:56",
+   "date_unixtime": "1677714776",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "시그니처뱅크, 크라켄 입출금 지원 일부 중단...암호화폐 예치금 축소\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124457"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "시그니처뱅크, 크라켄 입출금 지원 일부 중단...암호화폐 예치금 축소\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124457"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 7999,
+   "type": "message",
+   "date": "2023-03-02T08:53:10",
+   "date_unixtime": "1677714790",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "[시세브리핑] 암호화폐 시장 상승세...비트코인 2만3540 달러선\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124469"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "[시세브리핑] 암호화폐 시장 상승세...비트코인 2만3540 달러선\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124469"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8000,
+   "type": "message",
+   "date": "2023-03-02T09:29:08",
+   "date_unixtime": "1677716948",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "칠리즈, 650억대 규모 '인큐베이터' 프로그램 출시...스포츠 웹3 생태계 구축에 박차\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124471"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "칠리즈, 650억대 규모 '인큐베이터' 프로그램 출시...스포츠 웹3 생태계 구축에 박차\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124471"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8001,
+   "type": "message",
+   "date": "2023-03-02T10:11:27",
+   "date_unixtime": "1677719487",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "비트비엔에스 CEO, 작년 2월 해킹 사실 인정...도난 금액은 비공개\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124458"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "비트비엔에스 CEO, 작년 2월 해킹 사실 인정...도난 금액은 비공개\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124458"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8002,
+   "type": "message",
+   "date": "2023-03-02T10:11:44",
+   "date_unixtime": "1677719504",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "업비트, 이용자와 함께 비트코인으로 튀르키예 지진 피해자 지원한\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124483"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "업비트, 이용자와 함께 비트코인으로 튀르키예 지진 피해자 지원한\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124483"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8003,
+   "type": "message",
+   "date": "2023-03-02T11:04:06",
+   "date_unixtime": "1677722646",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "갤럭시아머니트리, 선불형 '머니트리 카드' 출시... 휴대폰 결제 기능 더했다\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124486"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "갤럭시아머니트리, 선불형 '머니트리 카드' 출시... 휴대폰 결제 기능 더했다\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124486"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8004,
+   "type": "message",
+   "date": "2023-03-02T11:04:38",
+   "date_unixtime": "1677722678",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "국제결제은행 \"암호화폐 익스포저 은행, 전 세계 은행 20%\"\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124477"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "국제결제은행 \"암호화폐 익스포저 은행, 전 세계 은행 20%\"\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124477"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8005,
+   "type": "message",
+   "date": "2023-03-02T11:08:05",
+   "date_unixtime": "1677722885",
+   "edited": "2023-03-02T13:18:07",
+   "edited_unixtime": "1677730687",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "스마일게이트 퓨처랩, '퓨처 러닝 콜렉티브' 입문과정 2기 성황리 마쳐\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124485"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "스마일게이트 퓨처랩, '퓨처 러닝 콜렉티브' 입문과정 2기 성황리 마쳐\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124485"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8006,
+   "type": "message",
+   "date": "2023-03-02T11:22:43",
+   "date_unixtime": "1677723763",
+   "edited": "2023-03-02T13:18:15",
+   "edited_unixtime": "1677730695",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "글로벌 암호화폐 ATM 수, 두 달 연속 감소세\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124489"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "글로벌 암호화폐 ATM 수, 두 달 연속 감소세\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124489"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8007,
+   "type": "message",
+   "date": "2023-03-02T11:30:25",
+   "date_unixtime": "1677724225",
+   "edited": "2023-03-02T13:18:20",
+   "edited_unixtime": "1677730700",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "[토큰포스트 오후 브리핑] 美 백악관·재무부·연준, 정기적으로 만나 중앙은행 디지털화폐 논의한다 外\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124493"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "[토큰포스트 오후 브리핑] 美 백악관·재무부·연준, 정기적으로 만나 중앙은행 디지털화폐 논의한다 外\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124493"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8008,
+   "type": "message",
+   "date": "2023-03-02T11:30:49",
+   "date_unixtime": "1677724249",
+   "edited": "2023-03-02T13:18:28",
+   "edited_unixtime": "1677730708",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "[오후 시세브리핑] 비트코인 2만3530 달러, 이더리움 1654 달러\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124495"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "[오후 시세브리핑] 비트코인 2만3530 달러, 이더리움 1654 달러\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124495"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8009,
+   "type": "message",
+   "date": "2023-03-02T13:08:14",
+   "date_unixtime": "1677730094",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "美 재무부, 연준·백악관과 '디지털 달러' 정기 논의 착수\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124496"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "美 재무부, 연준·백악관과 '디지털 달러' 정기 논의 착수\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124496"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 8010,
+   "type": "message",
+   "date": "2023-03-02T13:16:11",
+   "date_unixtime": "1677730571",
+   "from": "토큰포스트(TokenPost) 공식 채널",
+   "from_id": "channel1584728369",
+   "text": [
+    "호주, 몇 달 내 '중앙은행 디지털화폐' 시범 운영 돌입\n",
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124498"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "호주, 몇 달 내 '중앙은행 디지털화폐' 시범 운영 돌입\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.tokenpost.kr/article-124498"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  }
+ ]
+}

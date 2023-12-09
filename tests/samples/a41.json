@@ -1,0 +1,65 @@
+{
+ "name": "a41",
+ "type": "public_channel",
+ "id": 1616009926,
+ "messages": [
+  {
+   "id": 102,
+   "type": "message",
+   "date": "2023-03-02T09:44:09",
+   "date_unixtime": "1677717849",
+   "from": "a41",
+   "from_id": "channel1616009926",
+   "text": [
+    "📄 ",
+    {
+     "type": "bold",
+     "text": "a41 리서치 \n\n[Sui 시리즈 #2]: Narwhal & Bullshark"
+    },
+    ", Bullshark는 어떻게 DAG의 문제를 해결했을까?\n\n✍️ 작성자: Steve \n\n✅",
+    {
+     "type": "bold",
+     "text": " 세 줄 요약\n\n"
+    },
+    "📌 1)DAG는 빠른 확장성을 가지고 있지만, 메모리 문제와 공정성 문제를 해결하지 못했다는 문제가 있었다.\n\n📌 2) 하지만 Bullshark는 Narwhal의 Garbage Collection을 활용해 DAG를 정리하면서 합의하여 메모리 문제를 해결함과 동시에 DAG-Rider의 Weak Link를 활용하여 느린 벨리데이터의 꼭짓점을 연결해줘 공정함(Fairness)도 확보하였다.\n\n📌 3) Narwhal 역시 기존 멤풀 프로토콜의 이중 전송 문제를 해결하여, 밈풀에서 트랜잭션을 관리하는데에 있어서 훨씬 더 효율적인 메커니즘을 전달하는데 성공하였다.\n—\n\n전문은 a41_Steve의",
+    {
+     "type": "text_link",
+     "text": " 미디엄 글",
+     "href": "https://medium.com/a41-ventures/sui-%EC%8B%9C%EB%A6%AC%EC%A6%88-2-narwhal-bullshark-bullshark%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-dag%EC%9D%98-%EB%AC%B8%EC%A0%9C%EB%A5%BC-%ED%95%B4%EA%B2%B0%ED%96%88%EC%9D%84%EA%B9%8C-3819f885a6a2"
+    },
+    "에서 확인하실 수 있습니다."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "📄 "
+    },
+    {
+     "type": "bold",
+     "text": "a41 리서치 \n\n[Sui 시리즈 #2]: Narwhal & Bullshark"
+    },
+    {
+     "type": "plain",
+     "text": ", Bullshark는 어떻게 DAG의 문제를 해결했을까?\n\n✍️ 작성자: Steve \n\n✅"
+    },
+    {
+     "type": "bold",
+     "text": " 세 줄 요약\n\n"
+    },
+    {
+     "type": "plain",
+     "text": "📌 1)DAG는 빠른 확장성을 가지고 있지만, 메모리 문제와 공정성 문제를 해결하지 못했다는 문제가 있었다.\n\n📌 2) 하지만 Bullshark는 Narwhal의 Garbage Collection을 활용해 DAG를 정리하면서 합의하여 메모리 문제를 해결함과 동시에 DAG-Rider의 Weak Link를 활용하여 느린 벨리데이터의 꼭짓점을 연결해줘 공정함(Fairness)도 확보하였다.\n\n📌 3) Narwhal 역시 기존 멤풀 프로토콜의 이중 전송 문제를 해결하여, 밈풀에서 트랜잭션을 관리하는데에 있어서 훨씬 더 효율적인 메커니즘을 전달하는데 성공하였다.\n—\n\n전문은 a41_Steve의"
+    },
+    {
+     "type": "text_link",
+     "text": " 미디엄 글",
+     "href": "https://medium.com/a41-ventures/sui-%EC%8B%9C%EB%A6%AC%EC%A6%88-2-narwhal-bullshark-bullshark%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-dag%EC%9D%98-%EB%AC%B8%EC%A0%9C%EB%A5%BC-%ED%95%B4%EA%B2%B0%ED%96%88%EC%9D%84%EA%B9%8C-3819f885a6a2"
+    },
+    {
+     "type": "plain",
+     "text": "에서 확인하실 수 있습니다."
+    }
+   ]
+  }
+ ]
+}
