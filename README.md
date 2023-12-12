@@ -1,5 +1,7 @@
 # Simple API Call Counter
 
+The Simple API Call Counter is a program designed to count the occurrences of URLs in text files such as logs. It allows users to determine how many times each URL appears in the provided files. This tool, especially useful for files like nginx logs, provides insights into the frequency of API calls. Use it to quickly analyze and understand how often each API is invoked.
+
 ## Environment
 1. Python 3.11.x
 
